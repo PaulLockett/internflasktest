@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return 'Hello from Paul!'
 
+@app.route('/joshua')
+def joshua():
+    return 'Hello from joshua2!'
+
 @app.route('/Byron')
 def Byron():
         return 'Hello from Byron!'
